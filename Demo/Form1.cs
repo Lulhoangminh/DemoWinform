@@ -6,5 +6,10 @@ namespace Demo
         {
             InitializeComponent();
         }
+
+        private void deptrai_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

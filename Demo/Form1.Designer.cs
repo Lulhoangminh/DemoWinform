@@ -28,34 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
+            this.deptrai = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // label1
+            // deptrai
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 100F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(177, 160);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(864, 177);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Chao con cca";
+            this.deptrai.Location = new System.Drawing.Point(109, 81);
+            this.deptrai.Name = "deptrai";
+            this.deptrai.Size = new System.Drawing.Size(88, 38);
+            this.deptrai.TabIndex = 0;
+            this.deptrai.Text = "deptrai";
+            this.deptrai.UseVisualStyleBackColor = true;
+            this.deptrai.Click += new System.EventHandler(this.deptrai_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.deptrai);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private Label label1;
+        private Button deptrai;
     }
 }
